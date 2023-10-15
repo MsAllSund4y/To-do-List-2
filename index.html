@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+  <main class="app">
+    <section class="greeting">
+      <h2 class="title">
+        Bienvenido,<input type="text" id="name" placeholder="Nombre acá"/>
+      </h2>
+    </section>
+  <section class="create-todo">
+    <h3>Crear lista</h3>
+  <form id="new-todo-form">
+    <h4>¿Qué hay en tu lista?</h4>
+      <input 
+        type="text" 
+        name="content" 
+        id="content" 
+        placeholder="Ej:Compra arroz"
+      />
+    <h4>Elige una categoría</h4>
+    <div class="options">
+      <label>
+        <input type="radio" name="category" id="category1" value="business">
+        <span class="bubble business"></span>
+        <div>Business</div>
+      </label>
+      <label>
+      <input type="radio" name="category" id="category2" value="personal">
+      <span class="bubble personal"></span>
+      <div>Personal</div>
+      </label>
+    </div>
+    <input type="submit" value="Añadir lista"/>
+  </form>
+  </section>
+  <section class="todo-list">
+    <h3>Lista</h3>
+  <div class="list" id="todo-list"></div>
+  </section>
+  </main>
+  <script src="script.js"></script>
+  </body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--<main class="app">
+      <section class="greeting">
+        <h2 class="title">
+          Que onda, <input type="text" id="name" placeholder="Name here" />
+        </h2>
+      </section>
+      <section class="create-todo">
+        <h3>CREAR UNA LISTA</h3>
+        <form id="new-todo-form">
+          <h4>¿Qué hay en tu lista de cosas por hacer?</h4>
+          <input
+            type="text"
+            placeholder="Comprar en el Chino"
+            name="content"
+            id="content"/>
+          <h4>Elige una categoría</h4>
+          <div class="options">
+            <label>
+              <input type="radio" name="category" id="category1" value="business" /> 
+              <span class="bubble business"></span>
+              <div>Business</div>
+            </label>
+            <label>
+              <input type="radio" name="category" id="category2" value="personal" />
+              <span class="bubble personal"></span>
+              <div>Personal</div>
+            </label>
+          </div>
+          <h4>Elige una </h4>
+            <label>
+              <input
+                type="radio"
+                name="category"
+                id="category2"
+                value="personal"
+              />
+              <span class="bubble personal"></span>
+              <div>Personal</div>
+            </label>
+          </div>
+          <input type="submit" value="Add todo" />
+        </form>
+      </section>
+      <section class="todo-list">
+        <h3>Lista de que hacer</h3>
+        <div class="list" id="todo-list"></div>
+      </section>
+          <div class="todo-item">
+            <label>
+              <input type="checkbox" />
+              <span class="bubble personal"></span>
+            </label>
+            <div class="todo-content">
+              <input type="text" value="Hacer las compras" readonly />
+            </div>
+            <div class="actions">
+              <button class="edit">Editar</button>
+              <button class="delete">Borrar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>-->
